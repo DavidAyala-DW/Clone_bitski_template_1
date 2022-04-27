@@ -177,12 +177,12 @@ function CustomProductViewer({ product }) {
 
           <div className="absolute inset-0 w-full flex flex-col justify-center items-center">
 
-            <div className='relative shadow-2xl h-full w-full flex max-h-full justify-center max-w-full transition-transform duration-200 ease-[ease-in-out] md:hover:scale-105'>
+            <div className='relative  h-full bg-transparent w-full flex max-h-full justify-center max-w-full transition-transform duration-200 ease-[ease-in-out] md:hover:scale-105'>
 
               {
                 productInfo?.tokenMetadata?.animation_url != undefined ? (
 
-                  <video loop muted playsInline autoPlay  className='object-cover h-full min-w-full max-h-full object-center w-full rounded-xl  mx-auto' >
+                  <video loop muted playsInline autoPlay  className='object-cover h-full min-w-full max-h-full object-center w-full rounded-xl bg-transparent  mx-auto' >
 
                     <source src={productInfo.tokenMetadata.animation_url} />
                     <source src={productInfo.tokenMetadata.image} />
@@ -196,7 +196,7 @@ function CustomProductViewer({ product }) {
 
                   <div className='w-full h-full '>
                     <Image
-                      className='object-cover h-full w-full object-center rounded-xl'
+                      className='object-cover h-full w-full object-center rounded-xl bg-transparent'
                       src={ getOptimizedImage(productInfo?.tokenMetadata?.image,608,608) }
                       alt={productInfo?.tokenMetadata?.title}
                       layout="responsive"
@@ -221,7 +221,7 @@ function CustomProductViewer({ product }) {
 
       <section className='w-full flex flex-col items-start'>
 
-        <div className={`flex w-full items-center py-2 justify-between border-standard ${saleTypeStatus == "liveAt"? "liveActionColor" : ""}  ${saleTypeStatus == "closeUp" ? "closeUP text-white" : ""} rounded-lg my-5 border-2 px-3 space-x-2`}>
+        <div className={`flex w-full items-center py-2 justify-between border-standard ${saleTypeStatus == "liveAt"? "liveActionColor" : ""}  ${saleTypeStatus == "closeUp" ? "closeUP text-white" : ""} rounded-lg mt-5 mb-3 border-2 px-3 space-x-2`}>
 
           <p className='flex text-xs font-black leading-[14.4px] items-center'>
 
@@ -238,7 +238,7 @@ function CustomProductViewer({ product }) {
 
                   Live auction
 
-                  <span className='ml-2 h-2.5 mt-1.5 w-2.5 rounded-full liveActionBg animate-pulse transition-all block'>
+                  <span className='ml-2 h-2.5 w-2.5 rounded-full liveActionBg animate-pulse transition-all block'>
                   </span>
 
                 </>
@@ -271,7 +271,7 @@ function CustomProductViewer({ product }) {
 
         </div>
 
-        <div className='w-full flex flex-col space-y-5 items-start'>
+        <div className='w-full flex flex-col space-y-2 items-start'>
 
           <h2 className="text-lg leading-[21px] font-medium uppercase">
             <Link href={productInfo?.purchaseLink}>

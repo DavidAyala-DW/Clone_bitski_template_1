@@ -92,14 +92,14 @@ const Hero = () => {
             }
             @media(min-width: 1024px){
               .lg\:heightHero{
-                height: ${(maxHeight + 228) ?? 600}px;
+                height: ${(maxHeight + 288) ?? 600}px;
             } 
             }
           `}
         </style>
       </div>
 
-      <section className={` heightHero ${maxHeight == 0 ? "lg:!h-[600px]" : "lg:heightHero"} pb-20 md:pb-[60px] w-full`}>
+      <section className={` heightHero ${maxHeight == 0 ? "lg:!h-[600px]" : "lg:heightHero"} pb-20 md:pb-[120px] w-full`}>
 
         <div className=" h-full mx-auto relative overflow-hidden">
 
@@ -128,7 +128,7 @@ const Hero = () => {
 
           <div className="static lg:absolute lg:top-0 px-4 md:px-20 lg:right-0 w-full h-max ml-auto z-20" id="hero_content">
 
-              <div className=" max-w-[1440px] mx-auto pt-[136px] md:pt-[148px] lg:pt-[168px] w-full h-full flex flex-col space-y-10 lg:space-y-0 lg:flex-row items-center lg:items-center justify-between">
+              <div className=" max-w-[1280px] mx-auto pt-[136px] md:pt-[148px] lg:pt-[168px] w-full h-full flex flex-col space-y-10 lg:space-y-0 lg:flex-row items-center lg:items-center justify-between">
 
                 <div className="flex flex-col space-y-6 max-w-[560px] lg:max-w-[487px] lg:pr-5">
 
