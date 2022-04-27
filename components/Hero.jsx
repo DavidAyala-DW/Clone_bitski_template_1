@@ -128,7 +128,7 @@ const Hero = () => {
 
           <div className="static lg:absolute lg:top-0 px-4 md:px-20 lg:right-0 w-full h-max ml-auto z-20" id="hero_content">
 
-              <div className=" max-w-[1280px] mx-auto pt-[136px] md:pt-[148px] lg:pt-[168px] w-full h-full flex flex-col space-y-10 lg:space-y-0 lg:flex-row items-center lg:items-center justify-between">
+              <div className=" max-w-[1800px] mx-auto pt-[136px] md:pt-[148px] lg:pt-[168px] w-full h-full flex flex-col space-y-10 lg:space-y-0 lg:flex-row items-center lg:items-center justify-between">
 
                 <div className="flex flex-col space-y-6 max-w-[560px] lg:max-w-[487px] lg:pr-5">
 

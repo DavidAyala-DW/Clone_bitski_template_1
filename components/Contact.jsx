@@ -70,7 +70,7 @@ function Contact() {
 
   return (
 
-    <section className=' lg:mt-0 lg: md:px-10 lg:px-0 mb-40 md:mb-[120px] pt-[88px] lg:pt-0 md:pb-[175px] lg:pb-0 max-w-[1440px] mx-auto w-full h-full lg:min-h-full relative'>
+    <section className=' lg:mt-0 lg: md:px-10 lg:px-0 mb-40 md:mb-[120px] pt-[88px] lg:pt-0 md:pb-[175px] lg:pb-0 max-w-[1960px] mx-auto w-full h-full lg:min-h-full relative'>
 
       {
         screenType == "mobile" && (
@@ -90,7 +90,7 @@ function Contact() {
         )
       }
 
-      <div className="lg:absolute px-4 lg:px-20 lg:inset-0 w-full max-w-max md:max-w-full mx-auto lg:max-w-[1440px] space-y-5 lg:space-y-0 md:space-x-[45px] md:justify-start lg:space-x-[160px] h-full lg:max-h-[498px] my-auto z-10 flex flex-col md:flex-row items-start md:items-center">
+      <div className="lg:absolute px-4 lg:px-20 lg:inset-0 w-full max-w-max md:max-w-full mx-auto lg:max-w-[1960px] space-y-5 lg:space-y-0 md:space-x-[45px] md:justify-start lg:space-x-[160px] h-full lg:max-h-[498px] my-auto z-10 flex flex-col md:flex-row items-start md:items-center">
 
         <style jsx>{`
             .maxWidthFooterImage{
