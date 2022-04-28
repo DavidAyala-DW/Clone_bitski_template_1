@@ -130,13 +130,13 @@ const Hero = () => {
 
               <div className=" max-w-[1800px] mx-auto pt-[136px] md:pt-[148px] lg:pt-[168px] w-full h-full flex flex-col space-y-10 lg:space-y-0 lg:flex-row items-center lg:items-center justify-between">
 
-                <div className="flex flex-col space-y-6 max-w-[560px] lg:max-w-[487px] lg:pr-5">
+                <div className="flex flex-col space-y-6 max-w-[560px] lg:max-w-[535px] lg:pr-5">
 
                   <h1 className="z-20 font-extrabold md:font-black text-[52px] md:text-center lg:text-left leading-[52px] md:text-[64px] md:leading-[64px]">
                     {title}
                   </h1>
 
-                  <p className="z-20 md:text-center lg:text-left text-base leading-[25.6px]">
+                  <p className="z-20 md:text-center font-medium lg:max-w-[487px] lg:text-left text-base leading-[25.6px]">
                     {description}
                   </p>
 

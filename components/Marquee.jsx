@@ -56,7 +56,7 @@ const Marquee = () => {
 
       `}</style>
 
-      <div className="text-[50px] max-w-[2500px] mx-auto flex flex-col">
+      <div className="text-[50px] max-w-[2500px] mx-auto flex flex-col marquee">
         <div className="primary-color text-primary h-[50px] mb-1">
           <div className="relative w-screen max-w-full overflow-x-hidden font-black h-[50px]">
             <div className="absolute will-transform whitespace-nowrap h-[50px]">

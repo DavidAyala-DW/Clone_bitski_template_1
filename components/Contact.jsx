@@ -128,7 +128,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="flex flex-col items-start w-full md:max-w-[365px]  lg:max-w-[500px] xl:max-w-[608px] z-20">
+        <div className="flex flex-col items-start w-full md:max-w-[365px]  lg:max-w-[500px] xl:max-w-[576px] z-20">
 
           <h2 className="text-standard mb-6 leading-[32px] text-[32px] lg:text-[52px] font-black lg:leading-[52px]">
             {process.env.NEXT_PUBLIC_CONTACT_TITLE}
@@ -138,7 +138,7 @@ function Contact() {
             {process.env.NEXT_PUBLIC_CONTACT_DESCRIPTION}
           </p>
 
-          <a href={process.env.NEXT_PUBLIC_CONTACT_CTA_LINK} rel="noreferrer" target={"_blank"} className="transition hover:scale-105 cursor-pointer px-11 w-full md:w-max mt-10 py-3 bg-primary buttonShape text-secondary text-center uppercase font-medium text-[12px] leading-[14px]">
+          <a href={process.env.NEXT_PUBLIC_CONTACT_CTA_LINK} rel="noreferrer" target={"_blank"} className="transition hover:scale-105 cursor-pointer px-11 w-full md:w-max mt-10 py-3 bg-black buttonShape text-secondary text-center uppercase font-medium text-[12px] leading-[14px]">
             {process.env.NEXT_PUBLIC_CONTACT_CTA_TEXT}
           </a>
 
